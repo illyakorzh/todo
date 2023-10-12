@@ -1,0 +1,66 @@
+.wrapperTasks {
+  margin-bottom: 20px;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.wrapperTasks::-webkit-scrollbar {
+  width: 4px;
+}
+
+.wrapperTasks::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.wrapperTasks::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.wrapperTasks::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+
+
+
+
+.wrapperTask {
+  border-bottom: 1px solid;
+  margin:5px 0;
+  display: flex;
+ align-items: flex-end;
+}
+.wrapperCategory h2{
+  text-align: center;
+}
+
+.checkbox {
+  margin: 0 10px 2px;
+
+}
+
+.wrapperTask span {
+  word-break: break-all;
+  flex: 1 1 auto;
+}
+.completed{
+  text-decoration: line-through;
+}
+.wrapperImg {
+  margin: 0 10px 2px;
+  display: flex;
+  gap: 10px;
+  height: 1rem;
+}
+
+.wrapperImg img {
+  cursor: pointer;
+}
+.wrapperImg img:hover {
+  box-shadow: 0 0 10px #c592c8;
+  border-radius: 25%;
+}

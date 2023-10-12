@@ -1,0 +1,65 @@
+.wrapperList {
+  width: 30%;
+  height: 70%;
+  border: 1px solid darkgrey;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.wrapperList > h1 {
+  padding-bottom: 20px;
+  color: darkgrey;
+}
+
+.wrapperForm button {
+  height: fit-content;
+}
+
+.plusWrapper {
+  position: fixed;
+  bottom: 15%;
+  transform: translate(0, 50%);
+}
+
+.modalButton {
+  display: none;
+
+}
+
+.plus {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background-color: #a080c1;
+  cursor: pointer;
+  color: darkgrey;
+  transition-duration: 1s;
+}
+
+.plus:hover {
+  box-shadow: 0 0 10px orangered;
+
+}
+
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.buttonWrapper button {
+  width: 100px;
+  background-color: #411b57;
+  color: white;
+  text-transform: capitalize;
+}

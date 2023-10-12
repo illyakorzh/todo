@@ -1,0 +1,74 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modalContainer {
+  max-width: 550px;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  background-image: url(https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YmxhbmslMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&w=1000&q=80);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  color: darkgrey;
+}
+
+.modalRight {
+  width: 100%;
+}
+
+.closeBtn {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.btnContainer {
+  display: flex;
+
+}
+
+.btnPrimary {
+  background-color: #411b57;
+  color: white;
+}
+
+.wrapperForm{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.wrapperForm span{
+  color: red;
+  margin-top: 20px;
+}
+.wrapperInput{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+
+
+}
+.wrapperInput input{
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px;
+}
